@@ -1,4 +1,3 @@
-
 interface StatusProps {
     status: 'loading' | 'success' | 'failure' //union types
 }

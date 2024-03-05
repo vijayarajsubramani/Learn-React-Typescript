@@ -7,7 +7,7 @@ interface UsersProps {
 
 const Users = () => {
     // const [user, setUsers] = useState<UsersProps | null>(null);
-    const [user, setUsers] = useState<UsersProps>({} as UsersProps);
+    const [user, setUsers] = useState<UsersProps>({} as UsersProps); //assertions
 
 
     const handleLogin = () => {
